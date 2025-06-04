@@ -1,0 +1,48 @@
+# Git files
+.git
+.gitignore
+
+# Go build cache
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test files
+*_test.go
+*.test
+*.out
+coverage.html
+
+# Development files
+.air.toml
+tmp/
+dev.sh
+
+# Documentation
+*.md
+LICENSE
+CLEANUP_SUMMARY.md
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Sample data
+*.csv
+Sample.rss
